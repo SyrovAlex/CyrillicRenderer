@@ -54,7 +54,7 @@ fc-list | grep -i "Open Sans"
 
 ```bash
 # Клонирование репозитория
-git clone <repository-url>
+git clone https://github.com/SyrovAlex/CyrillicRenderer
 cd CyrillicRenderer
 
 # Сборка проекта
