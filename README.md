@@ -37,12 +37,12 @@ fc-list | grep -i "Open Sans"
 fc-list | grep -i "Noto Sans"
 fc-list | grep -i "DejaVu Sans"
 fc-list | grep -i "Roboto"
-fc-list | grep -i "Liberation
+fc-list | grep -i "Liberation"
 ```
 
 Установка шрифтов:
 ```bash
-sudo apt install fonts-noto-cjk fonts-dejavu fonts-liberation fonts-roboto
+sudo apt install fonts-open-sans fonts-noto-cjk fonts-dejavu fonts-roboto fonts-liberation
 ```
 
 Поиск путей к шрифтам:
@@ -132,16 +132,9 @@ docker build -t cyrillic-renderer .
 docker run -v $(pwd)/output:/data cyrillic-renderer
 ```
 
-Поддерживаемые шрифты
-
 В Docker-образ включены популярные свободные шрифты:
-
-    Open Sans
-
-    Noto Sans
-
-    Roboto
-
-    DejaVu Sans
-
+    Open Sans,
+    Noto Sans,
+    Roboto,
+    DejaVu Sans,
     Liberation Sans
